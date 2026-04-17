@@ -22,3 +22,8 @@ variable "igw_tags"{
     type = map
     default = {}
 }
+
+variable "public_subnet_cidr"{
+    type = list
+    default = ["10.0.1.0/24","10.2.0.0/24"]
+}
