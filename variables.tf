@@ -34,7 +34,7 @@ variable "public_subnet_tags"{
 }
 
 
-variable "databse_subnet_cidr"{
+variable "private_subnet_cidr"{
     type = list
     default = ["10.0.11.0/24","10.0.12.0/24"]
 }
